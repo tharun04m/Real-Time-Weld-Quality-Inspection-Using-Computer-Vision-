@@ -1,0 +1,4 @@
+WARNING: Ignoring invalid distribution ~orch (C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages)
+WARNING: Ignoring invalid distribution ~orch (C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages)
+ERROR: Could not install packages due to an OSError: [Errno 22] Invalid argument
+

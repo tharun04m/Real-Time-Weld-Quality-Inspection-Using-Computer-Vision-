@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 148, in _get_module_details
+  File "<frozen runpy>", line 112, in _get_module_details
+  File "C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages\streamlit\__init__.py", line 308, in <module>
+    from streamlit.starlette import App as App
+  File "C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages\streamlit\starlette.py", line 32, in <module>
+    from streamlit.web.server.starlette.starlette_app import App
+  File "C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages\streamlit\web\server\starlette\__init__.py", line 15, in <module>
+    from streamlit.web.server.starlette.starlette_app import App, create_starlette_app
+  File "C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_app.py", line 31, in <module>
+    from streamlit.web.server.starlette.starlette_gzip_middleware import (
+  File "C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages\streamlit\web\server\starlette\starlette_gzip_middleware.py", line 22, in <module>
+    from starlette.middleware.gzip import (
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1131, in get_data
+OSError: [Errno 22] Invalid argument

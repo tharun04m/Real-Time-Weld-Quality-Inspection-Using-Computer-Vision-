@@ -1,0 +1,41 @@
+Looking in indexes: https://download.pytorch.org/whl/cu121
+Collecting torch==2.5.1
+  Downloading https://download-r2.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp311-cp311-win_amd64.whl (2449.4 MB)
+     ---------------------------------------- 2.4/2.4 GB 29.7 MB/s eta 0:00:00
+Collecting torchvision==0.20.1
+  Downloading https://download-r2.pytorch.org/whl/cu121/torchvision-0.20.1%2Bcu121-cp311-cp311-win_amd64.whl (6.1 MB)
+     ---------------------------------------- 6.1/6.1 MB 20.4 MB/s eta 0:00:00
+Collecting torchaudio==2.5.1
+  Downloading https://download-r2.pytorch.org/whl/cu121/torchaudio-2.5.1%2Bcu121-cp311-cp311-win_amd64.whl (4.1 MB)
+     ---------------------------------------- 4.1/4.1 MB 17.6 MB/s eta 0:00:00
+Requirement already satisfied: filelock in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from torch==2.5.1) (3.32.3)
+Requirement already satisfied: typing-extensions>=4.8.0 in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from torch==2.5.1) (4.16.0)
+Requirement already satisfied: networkx in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from torch==2.5.1) (3.6.1)
+Requirement already satisfied: jinja2 in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from torch==2.5.1) (3.1.6)
+Requirement already satisfied: fsspec in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from torch==2.5.1) (2026.7.0)
+Collecting sympy==1.13.1 (from torch==2.5.1)
+  Downloading sympy-1.13.1-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: numpy in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from torchvision==0.20.1) (2.4.6)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from torchvision==0.20.1) (12.3.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from sympy==1.13.1->torch==2.5.1) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages (from jinja2->torch==2.5.1) (3.0.3)
+Downloading sympy-1.13.1-py3-none-any.whl (6.2 MB)
+   ---------------------------------------- 6.2/6.2 MB 1.0 MB/s eta 0:00:00
+Installing collected packages: sympy, torch, torchvision, torchaudio
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.14.0
+    Uninstalling sympy-1.14.0:
+      Successfully uninstalled sympy-1.14.0
+  Rolling back uninstall of sympy
+  Moving to c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages\__pycache__\isympy.cpython-311.pyc
+   from C:\Users\mukki\AppData\Local\Temp\pip-uninstall-cpbbc_hk\isympy.cpython-311.pyc
+  Moving to c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages\isympy.py
+   from C:\Users\mukki\AppData\Local\Temp\pip-uninstall-e1c2ujr3\isympy.py
+  Moving to c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages\sympy-1.14.0.dist-info\
+   from C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages\~ympy-1.14.0.dist-info
+  Moving to c:\users\mukki\onedrive\desktop\miniproject\.venv\lib\site-packages\sympy\
+   from C:\Users\mukki\OneDrive\Desktop\MiniProject\.venv\Lib\site-packages\~ympy
+  Moving to c:\users\mukki\onedrive\desktop\miniproject\.venv\scripts\isympy.exe
+   from C:\Users\mukki\AppData\Local\Temp\pip-uninstall-agohumtq\isympy.exe
+  Moving to c:\users\mukki\onedrive\desktop\miniproject\.venv\share\man\man1\isympy.1
+   from C:\Users\mukki\AppData\Local\Temp\pip-uninstall-nt5xl_vk\isympy.1

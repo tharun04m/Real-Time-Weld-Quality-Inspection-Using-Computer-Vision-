@@ -1,0 +1,9 @@
+
+> weld-inspection-dashboard@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  VITE v8.2.1  ready in 2831 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+2:24:11 pm [vite] (client) page reload src/main.jsx
