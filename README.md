@@ -60,57 +60,6 @@ Annotated inspection images
 Processing-time measurement
 Interactive React dashboard
 REST API using FastAPI
-System Architecture
-                 Weld Image / Video
-                         |
-                         v
-                  YOLO Model
-                 Defect Detection
-                         |
-                         v
-                   FastAPI
-                    Backend
-                         |
-                +--------+--------+
-                |                 |
-                v                 v
-            Database        React Dashboard
-          SQLite/MySQL
-Project Structure
-PRJ_65/
-|
-├── backend/
-│   └── main.py
-|
-├── frontend/
-│   ├── src/
-│   ├── package.json
-│   └── ...
-|
-├── models/
-│   └── weld_defect.pt
-|
-├── training/
-│   ├── train.py
-│   └── evaluate.py
-|
-├── realtime/
-│   └── video_detection.py
-|
-├── dataset/
-│   └── DOWNLOAD.md
-|
-├── sql/
-│   └── schema.sql
-|
-├── outputs/
-│   ├── annotated_weld.mp4
-│   └── annotated_weld.jsonl
-|
-├── requirements.txt
-├── .env.example
-└── README.md
-
 The project uses a trained model at models/weld_defect.pt. Without the model weights, the inspection endpoint returns HTTP 503 instead of presenting a false PASS result.
 
 Installation
